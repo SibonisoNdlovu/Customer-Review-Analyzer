@@ -1,0 +1,7 @@
+[ 
+        {"key":"SHORTER_THAN_15", "value": 15},
+        {"key":"MOVER_MENTIONS", "value":"Mover"},
+        {"key":"SHAKER_MENTIONS", "value":"Shaker"},
+        {"key": "QUESTIONS", "value":"?"},
+        {"key": "SPAM", "value":"http"}
+]

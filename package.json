@@ -1,0 +1,31 @@
+{
+  "name": "ikhokha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.60",
+    "husky": "^6.0.0",
+    "prettier": "^2.3.1",
+    "pretty-quick": "^3.1.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "iconv": "^3.0.0"
+  }
+}
